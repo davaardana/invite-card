@@ -1,5 +1,5 @@
 /* ==========================================================================
-   UNDANGAN DIGITAL SPESIAL UNTUK TALITHA (REACT BITS HYPERSPEED PINK GRADIENT)
+   UNDANGAN DIGITAL SPESIAL UNTUK BILA (REACT BITS HYPERSPEED PINK GRADIENT)
    ========================================================================== */
 
 /* Reset & Global Styles */
@@ -226,7 +226,7 @@ html, body {
     position: relative;
 }
 
-/* Red Heart PNG (Di Belakang Teks Hello Talitha, Agak ke Kanan) */
+/* Red Heart PNG (Di Belakang Teks Hello Bila, Agak ke Kanan) */
 .heart-stipple-wrapper {
     position: absolute;
     top: -20px;
@@ -250,7 +250,7 @@ html, body {
     filter: drop-shadow(0 6px 20px rgba(255, 42, 133, 0.5));
 }
 
-/* Calligraphy Heading Top Left (HELLO TALITHA PALING DEPAN) */
+/* Calligraphy Heading Top Left (HELLO BILA PALING DEPAN) */
 .header-calligraphy {
     display: flex;
     flex-direction: column;
@@ -530,8 +530,8 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 350px;
-    margin-top: 130px;
-    margin-bottom: 20px;
+    margin-top: 170px;
+    margin-bottom: 30px;
 }
 
 .crimson-envelope {
@@ -573,16 +573,16 @@ html, body {
 /* Ripped / Deckle Edge White Paper Letter inside envelope */
 .torn-paper-letter {
     position: absolute;
-    top: -140px;
-    left: 15px;
-    right: 15px;
+    top: -160px;
+    left: 12px;
+    right: 12px;
     background: #FAF7F0;
     border-radius: 2px;
     box-shadow: 
         0 -8px 25px rgba(0, 0, 0, 0.35),
         0 4px 15px rgba(0, 0, 0, 0.15);
     z-index: 10;
-    padding: 26px 20px 24px 20px;
+    padding: 22px 18px 20px 18px;
     transform: rotate(-1deg);
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), top 0.5s ease;
     cursor: pointer;
@@ -590,7 +590,7 @@ html, body {
 
 .torn-paper-letter:hover,
 .torn-paper-letter.expanded {
-    top: -175px;
+    top: -210px;
     transform: rotate(0deg) scale(1.02);
     z-index: 20;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
@@ -620,19 +620,62 @@ html, body {
     -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0 Q30,90 60,30 Q90,110 120,40 Q150,80 180,20 Q210,100 240,30 Q270,90 300,40 Q330,110 360,20 Q390,80 420,30 Q450,100 480,20 Q510,90 540,40 Q570,110 600,30 Q630,90 660,40 Q690,110 720,20 Q750,80 780,30 Q810,100 840,20 Q870,90 900,40 Q930,110 960,30 Q990,90 1020,40 Q1050,110 1080,20 Q1110,80 1140,30 Q1170,100 1200,0 L1200,120 L0,120 Z' fill='%23FAF7F0'/%3E%3C/svg%3E");
 }
 
-/* Typography on torn letter paper */
+/* Typography & Photo on torn letter paper */
 .letter-inner-content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
 }
 
 .letter-salutation {
     font-family: var(--font-script);
-    font-size: 38px;
+    font-size: 36px;
     color: #8B0000;
     font-weight: 400;
     line-height: 1;
+}
+
+/* Foto Bila Styling inside paper */
+.bila-photo-frame {
+    background: #FFFFFF;
+    padding: 6px 6px 10px 6px;
+    border-radius: 6px;
+    box-shadow: 
+        0 4px 15px rgba(139, 0, 0, 0.12),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    margin: 12px 0 10px 0;
+    transform: rotate(-1.5deg);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bila-photo-frame:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.bila-photo-wrapper {
+    width: 100%;
+    max-height: 180px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.bila-photo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center 10%;
+    display: block;
+}
+
+.photo-caption {
+    font-family: var(--font-typewriter);
+    font-size: 10px;
+    color: #8B0000;
+    margin-top: 6px;
+    letter-spacing: 0.5px;
 }
 
 .letter-body {

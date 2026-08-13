@@ -26,6 +26,6 @@ def process_heart_image_hd(input_path, output_path):
     print("HD background removal completed!")
 
 if __name__ == "__main__":
-    src = r"c:\Users\acer\Documents\Talitha\stippled_red_heart.png"
-    dest = r"c:\Users\acer\Documents\Talitha\stippled_red_heart.png"
+    src = r"c:\Users\acer\Documents\bila\stippled_red_heart.png"
+    dest = r"c:\Users\acer\Documents\bila\stippled_red_heart.png"
     process_heart_image_hd(src, dest)

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const srcDir = 'C:\\Users\\acer\\.gemini\\antigravity-ide\\brain\\beed7116-11cd-4744-9c04-820d9d7924b3';
-const destDir = 'c:\\Users\\acer\\Documents\\Talitha';
+const destDir = 'c:\\Users\\acer\\Documents\\bila';
 
 const filesToCopy = [
     { src: 'stippled_red_heart_1785176222954.png', dest: 'stippled_red_heart.png' },

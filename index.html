@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Undangan Spesial untuk Talitha ✉️✨</title>
+    <title>Undangan Spesial untuk Bila ✉️✨</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Pinyon+Script&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Pinyon+Script&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
 
     <!-- Three.js Engine for Hyperspeed Background -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -18,6 +21,7 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Fullscreen Hyperspeed Canvas Background (Pink/Magenta Gradient) -->
@@ -26,7 +30,9 @@
     <!-- Local Audio Player for "Awal Kisah Selamanya" -->
     <audio id="bg-music" loop preload="auto">
         <source src="awalkisahselamanya.mp3" type="audio/mpeg">
-        <source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-piano-wedding-love-116035.mp3" type="audio/mpeg">
+        <source
+            src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=romantic-piano-wedding-love-116035.mp3"
+            type="audio/mpeg">
     </audio>
 
     <!-- Floating Audio Control Widget -->
@@ -40,8 +46,12 @@
             <span class="song-status" id="song-status">Tap love to play music 💖</span>
         </div>
         <button class="music-toggle-btn" id="music-toggle-btn" aria-label="Toggle Music">
-            <svg id="play-icon" viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
-            <svg id="pause-icon" viewBox="0 0 24 24" class="icon hidden"><path fill="currentColor" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            <svg id="play-icon" viewBox="0 0 24 24" class="icon">
+                <path fill="currentColor" d="M8 5v14l11-7z" />
+            </svg>
+            <svg id="pause-icon" viewBox="0 0 24 24" class="icon hidden">
+                <path fill="currentColor" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+            </svg>
         </button>
     </div>
 
@@ -64,10 +74,10 @@
                     <img src="stippled_red_heart.png" class="heart-stipple-png" alt="Stippled Red Heart">
                 </div>
 
-                <!-- Calligraphy Heading Top Left (Hello Talitha,) -->
+                <!-- Calligraphy Heading Top Left (Hello Bila,) -->
                 <div class="header-calligraphy">
                     <span class="word-hello">Hello</span>
-                    <span class="word-love">Talitha,</span>
+                    <span class="word-love">Bila,</span>
                 </div>
 
                 <!-- Envelope Sealed Container -->
@@ -84,7 +94,8 @@
                         <div class="wax-seal" id="wax-seal">
                             <div class="wax-seal-inner">
                                 <svg class="seal-heart" viewBox="0 0 24 24">
-                                    <path fill="#8b0000" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                    <path fill="#8b0000"
+                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                                 </svg>
                             </div>
                             <div class="pulse-ring"></div>
@@ -111,7 +122,10 @@
                 <!-- Floating Top Navigation Bar (Tombol Tutup Surat Melayang Di Kiri Atas) -->
                 <div class="top-nav-bar">
                     <button class="back-btn" id="btn-back-to-p1">
-                        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+                        <svg viewBox="0 0 24 24" width="18" height="18">
+                            <path fill="currentColor"
+                                d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+                        </svg>
                         Tutup Surat
                     </button>
                 </div>
@@ -126,26 +140,34 @@
                         <div class="torn-paper-letter" id="torn-letter">
                             <div class="paper-texture"></div>
                             <div class="torn-edge-top"></div>
-                            
+
                             <div class="letter-inner-content">
-                                <h1 class="letter-salutation">Dear Talitha,</h1>
-                                
+                                <h1 class="letter-salutation">Dear Bila,</h1>
+
+                                <!-- Frame Foto Bila -->
+                                <div class="bila-photo-frame">
+                                    <div class="bila-photo-wrapper">
+                                        <img src="bila.PNG" alt="Foto Bila" class="bila-photo">
+                                    </div>
+                                    <span class="photo-caption">Coffee time? ☕✨</span>
+                                </div>
+
                                 <div class="letter-body">
-                                    <p class="highlight-text">Maaf ya untuk semuanya... 🥺💖</p>
-                                    <p>Dari lubuk hati yang paling dalam, aku mau minta maaf kalau pernah bikin kamu sedih, kecewa, atau pernah nyakitin perasaan kamu, baik secara sengaja maupun enggak sengaja.</p>
-                                    <p>Kamu tuh sosok yang sangat berharga dan spesial. Aku beneran nyesel atas segala kesalahan yang pernah ada. I hope you can find peace, joy, and forgive me in your heart.</p>
-                                    
+                                    <p class="highlight-text">Let's grab a casual coffee at NOA! ☕✨</p>
+                                    <p>Halo Bila! Hari Jumat besok jam 7 malam ada waktu kosong engga? Aku mau ngajak kamu ngopi di NOA ☕✨</p>
+                                    <p>Tapi santai aja yaa... kalo emang Bila engga bisa atau lagi ada acara lain, ya its oke banget kok! Don't worry 😊</p>
+
                                     <div class="gen-z-note">
-                                        <p>✨ <em>I’m so so sorry for everything, Talitha... honestly no excuses at all. You deserve all the peace, love & happiness in the world, and I truly hope we can be good again. For real, I'm genuinely sorry from the bottom of my heart 💖</em></p>
+                                        <p>✨ <em>Just a warm invitation for coffee & good talks at NOA Coffee this Friday at 7 PM. If you're busy or can't make it, no pressure at all! 💖</em></p>
                                     </div>
                                 </div>
 
                                 <div class="letter-closing">
-                                    <span class="closing-phrase">With all my heart & sincere apology,</span>
-                                    <span class="letter-signature">Special For Talitha 💖</span>
+                                    <span class="closing-phrase">Hope to see you there,</span>
+                                    <span class="letter-signature">Special For Bila 💖</span>
                                 </div>
                             </div>
-                            
+
                             <div class="torn-edge-bottom"></div>
                         </div>
 
@@ -156,10 +178,10 @@
 
                         <!-- Envelope Details Typography -->
                         <div class="env-brand-left">
-                            SPECIAL EDITION<br>FOR TALITHA
+                            SPECIAL EDITION<br>FOR BILA
                         </div>
                         <div class="env-brand-right">
-                            WITH SINCERE<br>LOVE & APOLOGY
+                            NOA COFFEE DATE<br>FRIDAY 7 PM ☕
                         </div>
 
                         <!-- Silk Cream Ribbon Bow overlay -->
@@ -183,4 +205,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
