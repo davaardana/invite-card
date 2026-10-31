@@ -1,5 +1,5 @@
 /* ==========================================================================
-   UNDANGAN DIGITAL SPESIAL UNTUK BILA (REACT BITS HYPERSPEED PINK GRADIENT)
+   UNDANGAN DIGITAL SPESIAL UNTUK ARTHA (REACT BITS HYPERSPEED PINK GRADIENT)
    ========================================================================== */
 
 /* Reset & Global Styles */
@@ -226,7 +226,7 @@ html, body {
     position: relative;
 }
 
-/* Red Heart PNG (Di Belakang Teks Hello Bila, Agak ke Kanan) */
+/* Red Heart PNG (Di Belakang Teks Hello Artha, Agak ke Kanan) */
 .heart-stipple-wrapper {
     position: absolute;
     top: -20px;
@@ -250,7 +250,7 @@ html, body {
     filter: drop-shadow(0 6px 20px rgba(255, 42, 133, 0.5));
 }
 
-/* Calligraphy Heading Top Left (HELLO BILA PALING DEPAN) */
+/* Calligraphy Heading Top Left (HELLO ARTHA PALING DEPAN) */
 .header-calligraphy {
     display: flex;
     flex-direction: column;
@@ -635,7 +635,7 @@ html, body {
     line-height: 1;
 }
 
-/* Foto Bila Styling inside paper */
+/* Foto Artha Styling inside paper */
 .bila-photo-frame {
     background: #FFFFFF;
     padding: 6px 6px 10px 6px;
@@ -657,16 +657,16 @@ html, body {
 
 .bila-photo-wrapper {
     width: 100%;
-    max-height: 180px;
+    max-height: 220px;
     overflow: hidden;
     border-radius: 4px;
 }
 
 .bila-photo {
     width: 100%;
-    height: 180px;
+    height: 220px;
     object-fit: cover;
-    object-position: center 10%;
+    object-position: center 30%;
     display: block;
 }
 

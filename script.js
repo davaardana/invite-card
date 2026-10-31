@@ -1,5 +1,5 @@
 /* ==========================================================================
-   UNDANGAN DIGITAL SPESIAL UNTUK BILA
+   UNDANGAN DIGITAL SPESIAL UNTUK ARTHA
    Three.js "Hyperspeed" Pink/Magenta Gradient Background & Invitation Logic
    ========================================================================== */
 
