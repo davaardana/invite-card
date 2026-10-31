@@ -476,9 +476,10 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 20px 40px 20px;
+    padding: 30px 20px 30px 20px;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .page2-content {
@@ -530,7 +531,7 @@ html, body {
     position: relative;
     width: 100%;
     max-width: 350px;
-    margin-top: 170px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -921,7 +922,7 @@ html, body {
     .env-fold-bottom { border-left-width: 145px; border-right-width: 145px; border-bottom-width: 105px; }
     .env-flap-top { border-left-width: 145px; border-right-width: 145px; border-top-width: 100px; }
     
-    .open-envelope-container { max-width: 310px; margin-top: 110px; }
+    .open-envelope-container { max-width: 310px; margin-top: 40px; }
     .crimson-envelope { height: 280px; }
     .env-open-flap-top { border-left-width: 155px; border-right-width: 155px; border-bottom-width: 95px; top: -95px; }
     .torn-paper-letter { left: 10px; right: 10px; padding: 20px 15px; top: -130px; }
